@@ -11,15 +11,10 @@ import UIKit
 class QuoteDataSource: NSObject {
     
     // MARK: - Properties
-    var quotes: [Quote]
+    var quotes: [Quote] = []
     
     // MARK: - Constants
     private let reusableIdentifier = "Cell"
-    
-    // MARK: - Initializers
-    init(quotes: [Quote]) {
-        self.quotes = quotes
-    }
     
 }
 

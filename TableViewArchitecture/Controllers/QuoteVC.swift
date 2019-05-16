@@ -11,11 +11,11 @@ import UIKit
 class QuoteVC: UIViewController {
     
     // MARK: - Properties
-    var dataSource: QuoteDataSource = QuoteDataSource(quotes: [])
-    var delegate: QuoteDelegate = QuoteDelegate()
+    private var dataSource: QuoteDataSource = QuoteDataSource()
+    private var delegate: QuoteDelegate = QuoteDelegate()
     
     // MARK: - Outlets
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet private weak var tableView: UITableView!
     
     // MARK: - Life cycle
     override func viewDidLoad() {

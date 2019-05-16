@@ -47,7 +47,7 @@ class TableViewArchitectureTests: XCTestCase {
         
         XCTAssertEqual(quote.author, "Aristotle")
         XCTAssertEqual(quote.quote, "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.")
-        XCTAssertEqual(quote.imageUrl, URL(string: "http://bit.do/eSxm"))
+        XCTAssertEqual(quote.imageUrl, URL(string: "http://bit.do/eSxm9"))
     }
 
 }
